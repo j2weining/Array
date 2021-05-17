@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <div id="day"></div>
+    <h1>DDT4B</h1>
+    <h1>CHAI WEI NING</h1>
+    <script>
+        var namahari = ['Ahad', 'Isnin', 'Selasa', 'Rabu', 'Khamis', 'Jumaat', 'Sabtu'];
+        namahari.sort();
+        var simpanhari = "";
+        var i;
+
+        for (i = 0; i <= 6; i++) {
+            simpanhari += namahari[i]+"<p></p>";
+        }
+        document.getElementById('day').innerHTML = simpanhari;
+    </script>
+</body>
+
+</html>
